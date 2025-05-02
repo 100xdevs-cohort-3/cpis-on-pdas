@@ -1,0 +1,15 @@
+{
+  "name": "0-client-only",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.2",
+    "litesvm": "0.2.0"
+  }
+}
